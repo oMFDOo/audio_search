@@ -1,5 +1,5 @@
 import logging
-from milvus import *
+from pymilvus import *
 from audio.common.config import MILVUS_HOST, MILVUS_PORT
 from audio.common.config import DEFAULT_TABLE, METRIC_TYPE, TOP_K, VECTOR_DIMENSION
 
